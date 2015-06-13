@@ -26,6 +26,9 @@ import adftutorials.com.adftutorials.task.TaskLoadMoviesBoxOffice;
  * Use the {@link AdfPost#newInstance} factory method to
  * create an instance of this fragment.
  */
+
+//add comment
+
 public class AdfPost extends Fragment implements SwipeRefreshLayout.OnRefreshListener, BoxOfficeMoviesLoadedListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/size_byte"
+            android:paddingLeft="@dimen/size_word"
+            android:paddingRight="@dimen/size_word"
+            android:paddingTop="@dimen/size_byte">
+
+
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:paddingTop="16dp"
+                android:textColor="@color/primary_text"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/movieReleaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/movieTitle"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:textColor="@color/secondary_text"
+                android:layout_toRightOf="@+id/postby"
+                android:alpha="0.87"
+                android:text="12-04-2015"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/postbyh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/movieTitle"
+                android:text="@string/postedby"
+android:textColor="@color/secondary_text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/postby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/postbyh"
+                android:layout_below="@+id/movieTitle"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp"  android:textColor="@color/colorAccent"
+               />
+
+            <LinearLayout
+                android:id="@+id/det_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postby"
+                android:orientation="vertical">
+                <!-- <ImageView
+                     android:id="@+id/movieThumbnail"
+                     android:layout_width="@dimen/movie_thumbnail_width"
+                     android:layout_height="@dimen/movie_thumbnail_height"
+                     android:layout_below="@id/movieTitle"
+                     android:layout_centerVertical="true" android:minWidth="100dp" android:maxHeight="100dp"
+                     android:visibility="gone" />-->
+
+
+                <TextView
+                    android:id="@+id/article_excerpt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="16dp"
+                    android:text="Medium Text"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <!--View
+                android:layout_width="fill_parent" android:layout_marginTop="16dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" android:layout_below="@id/det_container"/-->
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

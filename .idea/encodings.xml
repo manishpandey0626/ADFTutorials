@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/anim/AnimationUtils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/callbacks/BoxOfficeMoviesLoadedListener.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/callbacks/UpcomingMoviesLoadedListener.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/extras/Constants.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/extras/Keys.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/extras/MovieUtils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/extras/UrlEndpoints.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/extras/Util.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/json/Endpoints.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/json/Parser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/json/Requestor.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/json/Utils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/logging/L.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/pojo/Movie.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/adftutorials/com/adftutorials/task/TaskLoadMoviesBoxOffice.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/adf.jpg" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
